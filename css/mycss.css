@@ -1,0 +1,23 @@
+@font-face {
+  font-family: myf1;
+  src: url("../fonts/aremat.ttf");
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.myfont1 {
+  font-family: myf1;
+}
+.myimg {
+  background-image: url("../images/my5.webp");
+}
+
+@media (min-width: 426px) {
+  .myimg {
+    background-image: url("../images/bg_1.webp");
+  }
+}
+.dydx {
+  background: black;
+  color: white;
+}
